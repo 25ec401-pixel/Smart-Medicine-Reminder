@@ -1,0 +1,120 @@
+# depslib dependency file v1.0
+1792219046 source:c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\app.cpp
+	"app.h"
+	<iostream>
+	"exceptions.h"
+	"utils.h"
+
+1792219046 c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\app.h
+	<set>
+	<string>
+	<vector>
+	"datastore.h"
+	"medicinemanager.h"
+	"report.h"
+	"tracker.h"
+	"user.h"
+
+1792219046 c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\datastore.h
+	<string>
+	<vector>
+	"intakerecord.h"
+	"reminder.h"
+	"user.h"
+
+1792219046 c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\intakerecord.h
+	<string>
+
+1792219046 c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\reminder.h
+	<string>
+	"medicine.h"
+
+1792219046 c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\medicine.h
+	<string>
+
+1792219046 c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\user.h
+	<string>
+	"person.h"
+
+1792219046 c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\person.h
+	<string>
+
+1792219046 c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\medicinemanager.h
+	<string>
+	<vector>
+	"datastore.h"
+	"reminder.h"
+
+1792219046 c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\report.h
+	<string>
+	<vector>
+	"tracker.h"
+
+1792219046 c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\tracker.h
+	<string>
+	<vector>
+	"datastore.h"
+	"intakerecord.h"
+	"reminder.h"
+
+1792219046 c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\exceptions.h
+	<stdexcept>
+	<string>
+
+1792219046 c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\utils.h
+	<string>
+	<vector>
+
+1792219046 source:c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\datastore.cpp
+	"datastore.h"
+	<fstream>
+	<set>
+	"exceptions.h"
+	"utils.h"
+
+1792219046 source:c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\main.cpp
+	<exception>
+	<iostream>
+	"app.h"
+	"utils.h"
+
+1792219046 source:c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\medicine.cpp
+	"medicine.h"
+	"exceptions.h"
+	"utils.h"
+
+1792219046 source:c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\medicinemanager.cpp
+	"medicinemanager.h"
+	<algorithm>
+	"exceptions.h"
+
+1792219046 source:c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\person.cpp
+	"person.h"
+	<cctype>
+	"exceptions.h"
+	"utils.h"
+
+1792219046 source:c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\reminder.cpp
+	"reminder.h"
+	"utils.h"
+
+1792219046 source:c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\report.cpp
+	"report.h"
+	<map>
+
+1792219046 source:c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\tracker.cpp
+	"tracker.h"
+	<algorithm>
+	"exceptions.h"
+	"utils.h"
+
+1792219046 source:c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\user.cpp
+	"user.h"
+
+1792219046 source:c:\users\khush\onedrive\desktop\smartmedicinereminder_console\smartmedicinereminder_console\utils.cpp
+	"utils.h"
+	<cctype>
+	<cstdio>
+	<ctime>
+	<iostream>
+

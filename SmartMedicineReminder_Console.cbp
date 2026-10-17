@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SmartMedicineReminder_Console" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SmartMedicineReminder_Console" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option working_dir="." />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SmartMedicineReminder_Console" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option working_dir="." />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++17" />
+		</Compiler>
+		<Unit filename="app.cpp" />
+		<Unit filename="app.h" />
+		<Unit filename="datastore.cpp" />
+		<Unit filename="datastore.h" />
+		<Unit filename="exceptions.h" />
+		<Unit filename="intakerecord.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="medicine.cpp" />
+		<Unit filename="medicine.h" />
+		<Unit filename="medicinemanager.cpp" />
+		<Unit filename="medicinemanager.h" />
+		<Unit filename="person.cpp" />
+		<Unit filename="person.h" />
+		<Unit filename="reminder.cpp" />
+		<Unit filename="reminder.h" />
+		<Unit filename="report.cpp" />
+		<Unit filename="report.h" />
+		<Unit filename="tracker.cpp" />
+		<Unit filename="tracker.h" />
+		<Unit filename="user.cpp" />
+		<Unit filename="user.h" />
+		<Unit filename="utils.cpp" />
+		<Unit filename="utils.h" />
+	</Project>
+</CodeBlocks_project_file>
